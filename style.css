@@ -263,7 +263,13 @@ main.container {
     color: #666;
 }
 
-@media (max-width: 992px) {
+@media (max-width: 1023px) {
+    .news-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media (max-width: 768px) {
     .news-grid {
         grid-template-columns: repeat(2, 1fr);
     }
